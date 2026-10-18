@@ -1,0 +1,4 @@
+source,file,column,label
+stripe_export_2026,stripe_payments.csv,amount,money
+stripe_export_2026,stripe_payments.csv,created,datetime
+hubspot_export,contacts.csv,lifecycle_stage,category

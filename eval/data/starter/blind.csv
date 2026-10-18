@@ -1,0 +1,77 @@
+id,source,header,sample_values,your_label,notes
+gittables::GitTables_1504::col0,gittables:GitTables_1504,,1 | 2 | 3 | 4 | 5 | 6 | 7 | 8,,
+gittables::GitTables_1507::col0,gittables:GitTables_1507,,694.8 | 694.8 | 694.8445 | 694.8445 | 695.0111 | 695.0111 | 695.0333 | 695.0555,,
+gittables::GitTables_1511::col8,gittables:GitTables_1511,,5.0 | 256.0 | 5.0 | 256.0 | 5.12 | 5.12 | 5.004029273986816 | 5.12,,
+gittables::GitTables_1516::col2,gittables:GitTables_1516,,org.apache.poi.hpsf.SummaryInformation | org.apache.poi.hssf.record.HideObjRecord | org.apache.poi.hssf.eventusermodel.HSSFListener | org.apache.poi.hssf.record.BoundSheetRecord | org.apache.poi.hssf.record.FrameRecord | org.apache.poi.util.IntList | org.apache.poi.hssf.record.AreaFormatRecord | org.apache.poi.hssf.usermodel.HSSFTextbox,,
+gittables::GitTables_1517::col0,gittables:GitTables_1517,,217193 | 217192 | 217191 | 217190 | 217189 | 217188 | 217187 | 217186,,
+gittables::GitTables_1517::col8,gittables:GitTables_1517,,http://www.scotthyoung.com/blog/2007/12/06/the-virtue-of-fai | http://www.tachyos.org/godel/Godel_statement.html | http://jorgetown.blogspot.com/2007/12/dimensions-of-type-che | http://news.cnet.com/8301-13506_3-9968220-17.html | http://www.alleyinsider.com/2008/5/hey_yahoo_please_explain_ | http://googledocs.blogspot.com/2008/06/upload-your-pdfs.html | http://www.webdesignerwall.com/trends/2008-design-trends/ | http://www.techcrunch.com/2008/06/13/google-drives-towards-m,,
+gittables::GitTables_1556::col8,gittables:GitTables_1556,,https://github.com/rubyjs/core-lib | http://www.theverge.com/2012/12/7/3739050/microsoft-its-time | http://9to5mac.com/2012/12/06/apple-ceo-tim-cooks-full-nbc-r | http://www.bbc.co.uk/news/uk-england-london-20637222 | http://dendory.net/blog.php?id=50c1c898 | http://figurepool.com/figure/view/US_map_template-7774b3b7f5 | http://www.passioniericettedimargi.com/passioniericette/brod | http://www.techrepublic.com/blog/window-on-windows/get-the-f,,
+gittables::GitTables_1578::col7,gittables:GitTables_1578,,"Douglas Crockford + Chuck Norris = @CrockfordFacts | 4store: an efficient, scalable and stable RDF database | The manifesto of the futurist programmers | Chatroulette Piano Player Reinstated at YouTube | Justin.tv: The Iphone App | 5 Hiring Tips For Startups | Ask HN: Free, Twitter-like nano-blogging SMS enabled livestr | Google Is Hiring Bond Traders",,
+gittables::GitTables_1599::col6,gittables:GitTables_1599,,0.6000001 | 0.05000001 | 0.07499999 | 0.6 | 0.6 | 0.6 | 0.02000001,,
+gittables::GitTables_1599::col5,gittables:GitTables_1599,,8.702278e-08 | 0.04999995 | 0.07500005 | 0.01999998 | 0.13 | 0.13 | 0.13,,
+gittables::GitTables_1617::col4,gittables:GitTables_1617,,https://bugs.launchpad.net/watcher/+bug/1706860 | https://bugs.launchpad.net/watcher/+bug/1707653 | https://bugs.launchpad.net/watcher/+bug/1685787 | https://bugs.launchpad.net/watcher/+bug/1709004 | https://bugs.launchpad.net/watcher/+bug/1707603 | https://bugs.launchpad.net/watcher/+bug/1709024 | https://bugs.launchpad.net/watcher/+bug/1709048 | https://bugs.launchpad.net/senlin/+bug/1707871,,
+gittables::GitTables_1623::col0,gittables:GitTables_1623,,474.9451 | 475.4445 | 475.5111 | 476.8667 | 476.8667 | 476.9 | 476.9111 | 476.9111,,
+gittables::GitTables_1637::col7,gittables:GitTables_1637,,"JRuby, Duby, and Surinx: Building a Better Ruby 	 | Fake Steve Rails at AT&T | AskHn:Why hasn't a text-to-mediawiki converter been created? | Graphing transit routes with Git and Graphviz | Let us buy you a beer (or three) (iPhone developers in the B | Scroogle: Google Anonymously | Global Aging: The Real Challenge of Our Times | Study: More Than 50 Android Phones to Ship in 2010",,
+gittables::GitTables_1679::col1,gittables:GitTables_1679,,1165.745 | 1165.989 | 1165.978 | 1166.111 | 1166.443 | 1166.322 | 1166.656 | 1166.589,,
+gittables::GitTables_1681::col0,gittables:GitTables_1681,,8442012 | 8442011 | 8442010 | 8442009 | 8442007 | 8442006 | 8442005 | 8442004,,
+gittables::GitTables_1706::col3,gittables:GitTables_1706,,Open | Click | Set | Click | Set | Click | Click | Click,,
+gittables::GitTables_1706::col0,gittables:GitTables_1706,,1 | 2 | 3 | 4 | 5 | 6 | 7 | 8,,
+gittables::GitTables_1747::col1,gittables:GitTables_1747,,"Unit 0225 Box 8419
+DPO AA 87743 | 698 Banks Loaf Suite 280
+Harmonmouth, AZ 71846 | 5945 Jennifer Loaf
+Pooleland, PA 25707 | 37696 Richard Squares
+Bartonton, NV 08874 | 8789 Nicole Park
+Larrymouth, MT 25142 | 206 Stewart Forest
+Lake Karenhaven, CT 25464 | 4217 Burton Brooks
+Robinville, KS 17988 | 24000 Erin Point Suite 590
+Josephmouth, NE 49318",,
+gittables::GitTables_1750::col0,gittables:GitTables_1750,,92491 | 92490 | 92489 | 92488 | 92487 | 92486 | 92485 | 92484,,
+gittables::GitTables_1753::col1,gittables:GitTables_1753,,925.4282 | 925.6111 | 924.9667 | 925.5111 | 925.0445 | 925.0889 | 925.1223 | 925.1889,,
+gittables::GitTables_1753::col4,gittables:GitTables_1753,,PickedUp | RightGate | LeftGate | LeftGate | RightGate | RightGate | RightGate | RightGate,,
+gittables::GitTables_1757::col0,gittables:GitTables_1757,,262954 | 262953 | 262952 | 262951 | 262950 | 262949 | 262948 | 262946,,
+gittables::GitTables_1764::col0,gittables:GitTables_1764,,access_multi_company_default user | access_ir_actions_report_xml_group_system | access_res_request_link_group_user | access_res_partner_category_group_user | access_res_company_group_erp_manager | access_workflow_transition_all | access_ir_actions_server_all | access_res_users_group_erp_manager,,
+gittables::GitTables_1765::col8,gittables:GitTables_1765,,http://mitpress.mit.edu/SICM/ | http://www.caffeinatedcoder.com/anatomy-of-a-flame-war/ | http://secgeeks.com/orkut_under_attack.html | http://partiwm.org/browser/README.xpra | http://code.enthought.com/traits/#traitsui | http://www.nytimes.com/2008/03/15/arts/music/15aust.html?ex= | http://www.nytimes.com/2008/03/14/education/14math.html?_r=1,,
+gittables::GitTables_1771::col0,gittables:GitTables_1771,,668747 | 668746 | 668745 | 668743 | 668742 | 668741 | 668740 | 668739,,
+gittables::GitTables_1775::col0,gittables:GitTables_1775,,perm.purchase.PurchaseRequestCreator.r | perm.purchase.PurchaseRequest.r | perm.purchase.PurchaseRequestCreator.rwc | perm.purchase.PurchaseRequest.rwc | perm.purchase.PurchaseRequestCreator.rwcde | perm.purchase.PurchaseRequest.rwcde,,
+gittables::GitTables_1808::col3,gittables:GitTables_1808,,Black | Black | Black | Black | Black | Gray | Black | Black,,
+gittables::GitTables_1817::col7,gittables:GitTables_1817,,New Macbook Pros Released | Masterpiece Engineering | BIL Conference - Minds Set Free. | Marc Andreessen on Start-Up Success | Rails Core Wants to Transition to Git; A Core Team Member ha | Businessperson With a Web Startup Idea Looking to Find a Tec | Sun Completes Acquisition of MySQL | Jonathan Schwartz's Blog: MySQL is Officially a Part of Sun,,
+gittables::GitTables_1827::col1,gittables:GitTables_1827,,Tiempo de estado (horas) | Embudo | Filtro | Tiempo empleado por estado (horas) | Nodo de inicio | Línea de seguimiento | Campo Json | MetaMenú,,
+gittables::GitTables_1828::col4,gittables:GitTables_1828,,RightGate | LeftGate | RightGate | RightGate | LeftGate | RightGate | RightGate | LeftGate,,
+gittables::GitTables_1839::col7,gittables:GitTables_1839,,"Leaked documents that were not attributed to Snowden | Ask HN: Why has online directory assistance (phone lookup) b | ""Free Basics"" - Myths and Facts",,
+gittables::GitTables_1841::col0,gittables:GitTables_1841,,325140 | 325139 | 325138 | 325137 | 325136 | 325134 | 325133 | 325132,,
+gittables::GitTables_1845::col1,gittables:GitTables_1845,,124.3641 | 123.3778 | 123.4889 | 123.3778 | 123.4778 | 124.1556 | 124.3222 | 124.3,,
+gittables::GitTables_1851::col5,gittables:GitTables_1851,,4130 | 24593 | 4294 | 597 | 2202 | 5833 | 3824 | 8217,,
+gittables::GitTables_1872::col5,gittables:GitTables_1872,,The method has 6 parameters. Parameters: bufA' offsetA' coun | The method has 7 parameters. Parameters: hAlgorithm' phHash' | The method has 10 parameters. Parameters: hKey' pbInput' cbI | The method has 9 parameters. Parameters: hPrf' pbPassword' c | The method has 5 parameters. Parameters: hHash' phNewHash' p | The method has 10 parameters. Parameters: hKey' pbInput' cbI | The method has 7 parameters. Parameters: hAlgorithm' phKey'  | The method has 6 parameters. Parameters: hObject' pszPropert,,
+gittables::GitTables_1878::col1,gittables:GitTables_1878,,"Unit 0225 Box 8419
+DPO AA 87743 | 698 Banks Loaf Suite 280
+Harmonmouth, AZ 71846 | 5945 Jennifer Loaf
+Pooleland, PA 25707 | 37696 Richard Squares
+Bartonton, NV 08874 | 8789 Nicole Park
+Larrymouth, MT 25142 | 206 Stewart Forest
+Lake Karenhaven, CT 25464 | 4217 Burton Brooks
+Robinville, KS 17988 | 24000 Erin Point Suite 590
+Josephmouth, NE 49318",,
+gittables::GitTables_1881::col8,gittables:GitTables_1881,,http://www.niemanlab.org/2009/10/how-the-huffington-post-use | http://www.nature.com/nature/journal/v461/n7266/full/461881a | http://www.galois.com/blog/2009/10/13/haskellkernelmodules/ | http://elastic-security.com/2009/10/15/ami-marketplace/ | http://www.dragosroua.com/7-ways-to-say-no/,,
+gittables::GitTables_1894::col7,gittables:GitTables_1894,,"Netflix Business Plan For The Next 20 Years | Video: AJAX News, June 1, 2010 | Facebook photo embeds now available through the Embedly API | A Whiter Shade of Pale: Race and Diversity on the Web | Web standards == Safari? | HTML5 video made hackable by Handroll.tv | How to take a Screenshot (Win vs MacOS vs Iphone vs Android) | Chattanooga Announces Nation's Only 150 Mbps Residential Int",,
+gittables::GitTables_1920::col5,gittables:GitTables_1920,,8.702278e-08 | 0.04999995 | 0.07500005 | 0.01999998 | 0.13 | 0.13 | 0.13,,
+gittables::GitTables_1933::col8,gittables:GitTables_1933,,http://www.cwora.com/ | http://www.facebook.com/hackercup/reg.php | http://www.youtube.com/watch?v=utYMN4CNtOM | http://www.aes.id.au/?p=569 | http://blog.thestateofme.com/2011/01/07/how-postini-ruins-th | http://www.dailyprincetonian.com/2011/01/07/27306/ | http://www.php.net/archive/2011.php#id2011-01-06-1 | http://curiousprogrammer.wordpress.com/2011/01/04/devel-repl,,
+gittables::GitTables_1962::col8,gittables:GitTables_1962,,http://steverydz.com/2014/09/07/learning-tdd-with-fizzbuzz/ | https://www.gov.uk/government/publications/inclusive-communi | http://www.symmetrymagazine.org/article/july-2014/a-physicis | https://weev.livejournal.com/407404.html | http://sinosphere.blogs.nytimes.com/2014/09/06/wealthy-chine | http://www.retronaut.com/2011/10/bell-labs-1960s-2/?utm_cont | http://nautil.us/issue/14/mutation/a-strange-new-gene-pool-o | https://skim.it?utm_source=hackernews&utm_medium=hacker&utm_,,
+gittables::GitTables_1986::col0,gittables:GitTables_1986,,873.7444 | 873.8223 | 874.0111 | 874.0778 | 875.4 | 875.4222 | 875.4445 | 875.4778,,
+gittables::GitTables_1995::col6,gittables:GitTables_1995,,0.6000001 | 0.05000001 | 0.07499999 | 0.6 | 0.6 | 0.6 | 0.02000001,,
+gittables::GitTables_2002::col23,gittables:GitTables_2002,,* | * | * | * | * | * | * | *,,
+gittables::GitTables_2003::col0,gittables:GitTables_2003,,access_purchase_requisition | access_purchase_requisition_line_purchase_user | access_purchase_requisition_manager | access_purchase_requisition_line_manager | access_purchase_requisition_stock_manager | access_purchase_requisition_line_stock_manager,,
+gittables::GitTables_2005::col7,gittables:GitTables_2005,,59.2 | 121.6 | 47.7 | 62.21 | 45.0 | 57.6 | 114.0 | 195.0,,
+uci_bank::loan,uci_bank,loan,no | no | no | no | no | no | no | no,,
+uci_bank::duration,uci_bank,duration,96 | 170 | 78 | 114 | 163 | 90 | 457 | 102,,
+uci_bank::campaign,uci_bank,campaign,1 | 4 | 4 | 1 | 1 | 3 | 3 | 2,,
+uci_bank::pdays,uci_bank,pdays,999 | 999 | 999 | 999 | 999 | 999 | 999 | 999,,
+uci_bank::previous,uci_bank,previous,0 | 0 | 0 | 1 | 0 | 0 | 0 | 0,,
+uci_bank::poutcome,uci_bank,poutcome,nonexistent | nonexistent | nonexistent | success | nonexistent | nonexistent | nonexistent | nonexistent,,
+uci_bank::emp.var.rate,uci_bank,emp.var.rate,-1.8 | -1.8 | 1.1 | 1.4 | -0.1 | -1.8 | 1.4 | -1.8,,
+uci_bank::cons.price.idx,uci_bank,cons.price.idx,93.918 | 94.465 | 93.075 | 93.918 | 94.465 | 93.994 | 92.963 | 94.465,,
+uci_bank::nr.employed,uci_bank,nr.employed,5008.7 | 5191 | 5191 | 5228.1 | 5195.8 | 5228.1 | 5228.1 | 5191,,
+uci_bank::y,uci_bank,y,no | no | no | no | yes | no | no | no,,
+uci_retail::Invoice,uci_retail,Invoice,489879 | 489900 | C490798 | 490365 | 489601 | 490745 | 490074 | 490109,,
+uci_retail::Quantity,uci_retail,Quantity,25 | 4 | 12 | 1 | 1 | 1 | 12 | 24,,
+uci_retail::InvoiceDate,uci_retail,InvoiceDate,2009-12-07 13:24:00 | 2009-12-01 13:07:00 | 2009-12-03 15:09:00 | 2009-12-07 13:45:00 | 2009-12-05 10:31:00 | 2009-12-04 09:43:00 | 2009-12-06 11:45:00 | 2009-12-06 15:24:00,,
+uci_retail::Price,uci_retail,Price,1.45 | 2.75 | 1.25 | 2.57 | 14.95 | 7.78 | 7.78 | 11.26,,

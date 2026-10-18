@@ -1,0 +1,33 @@
+[project]
+name = "jeveval"
+version = "0.1.0"
+description = "Independent evaluation of Jev as the decision layer of an analytics pipeline"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=1.0",
+    "httpx>=0.27",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "scipy>=1.13",
+    "matplotlib>=3.9",
+    "python-dotenv>=1.0",
+    "tabulate>=0.9",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+jeveval = "jeveval.run:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["jeveval*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

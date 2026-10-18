@@ -1,0 +1,61 @@
+id,suggested_label,suggested_by
+gittables::GitTables_1504::col0,count,gittables_schema:step|review
+gittables::GitTables_1507::col0,datetime,gittables_schema:start time|review
+gittables::GitTables_1511::col8,measure,gittables_schema:width|review
+gittables::GitTables_1516::col2,category,gittables_schema:class|review
+gittables::GitTables_1517::col0,id,gittables_schema:id|direct
+gittables::GitTables_1517::col8,url,gittables_schema:url|direct
+gittables::GitTables_1556::col8,url,gittables_schema:url|direct
+gittables::GitTables_1578::col7,text,gittables_schema:title|review
+gittables::GitTables_1599::col6,measure,gittables_schema:depth|review
+gittables::GitTables_1599::col5,measure,gittables_schema:height|review
+gittables::GitTables_1617::col4,url,gittables_schema:url|direct
+gittables::GitTables_1623::col0,datetime,gittables_schema:start time|review
+gittables::GitTables_1637::col7,text,gittables_schema:title|review
+gittables::GitTables_1679::col1,datetime,gittables_schema:end time|review
+gittables::GitTables_1681::col0,id,gittables_schema:id|direct
+gittables::GitTables_1706::col3,category,gittables_schema:action|review
+gittables::GitTables_1706::col0,count,gittables_schema:step|review
+gittables::GitTables_1747::col1,email,gittables_schema:email|review
+gittables::GitTables_1750::col0,id,gittables_schema:id|direct
+gittables::GitTables_1753::col1,datetime,gittables_schema:end time|review
+gittables::GitTables_1753::col4,category,gittables_schema:interaction type|review
+gittables::GitTables_1757::col0,id,gittables_schema:id|direct
+gittables::GitTables_1764::col0,id,gittables_schema:id|direct
+gittables::GitTables_1765::col8,url,gittables_schema:url|direct
+gittables::GitTables_1771::col0,id,gittables_schema:id|direct
+gittables::GitTables_1775::col0,text,gittables_schema:name|review
+gittables::GitTables_1808::col3,category,gittables_schema:color|review
+gittables::GitTables_1817::col7,text,gittables_schema:title|review
+gittables::GitTables_1827::col1,text,gittables_schema:message|review
+gittables::GitTables_1828::col4,category,gittables_schema:interaction type|review
+gittables::GitTables_1839::col7,text,gittables_schema:title|review
+gittables::GitTables_1841::col0,id,gittables_schema:id|direct
+gittables::GitTables_1845::col1,datetime,gittables_schema:end time|review
+gittables::GitTables_1851::col5,measure,gittables_schema:size|review
+gittables::GitTables_1872::col5,text,gittables_schema:description|review
+gittables::GitTables_1878::col1,email,gittables_schema:email|review
+gittables::GitTables_1881::col8,url,gittables_schema:url|direct
+gittables::GitTables_1894::col7,text,gittables_schema:title|review
+gittables::GitTables_1920::col5,measure,gittables_schema:height|review
+gittables::GitTables_1933::col8,url,gittables_schema:url|direct
+gittables::GitTables_1962::col8,url,gittables_schema:url|direct
+gittables::GitTables_1986::col0,datetime,gittables_schema:start time|review
+gittables::GitTables_1995::col6,measure,gittables_schema:depth|review
+gittables::GitTables_2002::col23,category,gittables_schema:language|review
+gittables::GitTables_2003::col0,id,gittables_schema:id|direct
+gittables::GitTables_2005::col7,money,gittables_schema:price|review
+uci_bank::loan,boolean,rules|review
+uci_bank::duration,count,rules|review
+uci_bank::campaign,count,rules|review
+uci_bank::pdays,count,rules|review
+uci_bank::previous,boolean,rules|review
+uci_bank::poutcome,category,rules|review
+uci_bank::emp.var.rate,percentage,rules|review
+uci_bank::cons.price.idx,money,rules|review
+uci_bank::nr.employed,measure,rules|review
+uci_bank::y,boolean,rules|review
+uci_retail::Invoice,count,rules|review
+uci_retail::Quantity,count,rules|review
+uci_retail::InvoiceDate,datetime,rules|review
+uci_retail::Price,money,rules|review
