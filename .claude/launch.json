@@ -6,6 +6,25 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "8765", "--bind", "127.0.0.1", "--directory", "demo/out"],
       "port": 8765
+    },
+    {
+      "name": "backend",
+      "runtimeExecutable": "app/backend/.venv/bin/uvicorn",
+      "runtimeArgs": ["jevdash.api:app", "--app-dir", "app/backend", "--host", "127.0.0.1", "--port", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "backend-mock",
+      "runtimeExecutable": "env",
+      "runtimeArgs": ["JEV_MOCK=1", "JEVDASH_STORAGE=app/backend/storage-mock", "app/backend/.venv/bin/uvicorn", "jevdash.api:app",
+                      "--app-dir", "app/backend", "--host", "127.0.0.1", "--port", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "app/web", "run", "dev", "--", "-p", "3000"],
+      "port": 3000
     }
   ]
 }

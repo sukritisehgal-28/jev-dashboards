@@ -8,3 +8,6 @@ eval/runs/
 demo/out/*.json
 # Downloaded public datasets (~48 MB); rebuild with jeveval.starter
 eval/data/raw/
+# App runtime data (datasets, Jev spend ledger)
+app/backend/storage/
+app/backend/storage-mock/

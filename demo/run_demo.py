@@ -175,7 +175,7 @@ def parse_number(s: pd.Series) -> pd.Series:
             return np.nan
         neg = x.startswith("(") and x.endswith(")") or x.startswith("-")
         x = re.sub(r"[^\d,.\-]", "", x).lstrip("-")
-        if re.fullmatch(r"\d{1,3}(\.\d{3})*,\d+|\d+,\d+", x):  # 1.234,56 style
+        if re.fullmatch(r"\d{1,3}(\.\d{3})+,\d+|\d+,\d{1,2}", x):  # 1.234,56 style
             x = x.replace(".", "").replace(",", ".")
         x = x.replace(",", "")
         try:
