@@ -44,6 +44,8 @@ flowchart LR
     E --> G["Live React dashboard<br/>+ Decision Inspector"]
 ```
 
+<img src="docs/images/inspector.png" alt="Decision Inspector showing each decision with its probability and latency" width="900">
+
 The **Decision Inspector** shows every decision behind the dashboard with its probability, so
 nothing the model decided is hidden from the user.
 
@@ -69,8 +71,37 @@ layer (rules, gradient boosting, an LLM, or a decision model) on your own data:
   diagrams), risk-coverage curves, cost-optimal deferral thresholds and paired McNemar tests.
 - **Robustness:** sample size, missing and misleading headers, option order and option naming.
 
-Results depend on your data, and model results are not published in this repo: run the harness
-with your own API keys to measure them.
+## What I learned (educational notes)
+
+> **Read this first.** This is a personal learning project, not an official, independent or
+> peer-reviewed benchmark. The figures below come from one run in October 2026 with
+> `jev-1.13.0`, on my own small and mostly **synthetic** test set (324 columns I generated from
+> documented export formats). They show what I observed while learning, not how Jev performs in
+> general, on your data, or in later versions. Run the harness yourself before drawing conclusions.
+
+On my synthetic founder-style columns, compared with two simple baselines I wrote:
+
+| My test set, one run | Rules | Gradient boosting | Jev |
+| --- | --- | --- | --- |
+| Accuracy (95% CI) | 75.6% | 70.7% | 95.4% (91.5 to 98.6) |
+| Calibration error (ECE, lower is better) | 0.117 | 0.193 | 0.018 |
+| Share of decisions automatable at 5% error | 0% | 8% | 100% |
+
+Things I noticed, and what they taught me about designing around a decision model:
+
+- **Misleading headers mattered most.** When I gave columns headers that named the wrong type,
+  accuracy on my set dropped to about 78% and answers stayed confident. Lesson: don't let a header
+  alone decide; the roadmap's "ask twice" rule targets this.
+- **Units need context.** For `amount` alone the model's p(cents) was 0.46; with the whole table
+  (`ch_` and `cus_` IDs visible) it was 0.94. Lesson: ask unit questions at table level.
+- **Weaker spots on my set:** fractional counts like `5.59` conversions and percentages written
+  without a % sign. These match the kinds of limits the
+  [model's own documentation](https://docs.typesafe.ai/model-jaggedness/jev-1.13) describes.
+- **Option order and naming barely changed answers** on my set (0.3% of answers flipped when
+  options were shuffled), which suggested definitions mattered more than names.
+
+These are notes from a small experiment. Synthetic data is cleaner than real exports, and my
+baselines are deliberately simple, so stronger baselines or real data could change the picture.
 
 ## Quick start
 
@@ -116,7 +147,8 @@ dataset, so a live Google Sheet refreshing every 30 seconds costs nothing extra.
 - Jev is a product and trademark of TypeSafe AI. This is an independent personal project, not
   affiliated with, sponsored or endorsed by TypeSafe AI. Use of Jev is subject to
   [TypeSafe's terms](https://typesafe.ai/legal/mca); bring your own API key.
-- This repo contains no model outputs and no performance claims about Jev.
+- Figures in this README are informal, educational observations from a personal project. They
+  are not performance claims, guarantees or an endorsement, and raw model outputs are not committed.
 - Public datasets are CC BY 4.0; attribution in [`eval/data/starter/SOURCES.md`](eval/data/starter/SOURCES.md).
 
 Built by [Sukriti Sehgal](https://github.com/sukritisehgal-28).
