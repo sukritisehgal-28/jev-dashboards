@@ -5,9 +5,12 @@ __pycache__/
 .pytest_cache/
 # Raw model outputs stay local (TypeSafe MCA 2.3(b)); publish metrics only.
 eval/runs/
-demo/out/*.json
+demo/out/
 # Downloaded public datasets (~48 MB); rebuild with jeveval.starter
 eval/data/raw/
 # App runtime data (datasets, Jev spend ledger)
 app/backend/storage/
 app/backend/storage-mock/
+# Internal research notes (kept local)
+research_notes/
+reports/

@@ -3,7 +3,7 @@
 Two kinds of call:
 - one per column: type, role, cents, filter (column alone is enough for type)
 - one per table: is each money column in cents? (units need whole-table context;
-  measured in demo/: p 0.44 from the column alone, 0.93 with the table)
+  measured on the bundled sample: the column alone is ambiguous, the table is not)
 
 Credit safety: every call is checked against a spending cap recorded in a ledger,
 and JEV_MOCK=1 answers from the free rules tier instead of the API.

@@ -27,7 +27,7 @@ In the Claude desktop app, `.claude/launch.json` has `backend`, `backend-mock` a
 | Call | Questions | Why |
 | --- | --- | --- |
 | One per column | type (Choice), role (Choice), cents (Noul), filter (Noul) | A column alone is enough to type it |
-| One per table | is each money column in cents? (Noul each) | Units need context: `amount` scored 0.46 alone, 0.94 with the table |
+| One per table | is each money column in cents? (Noul each) | Units often can't be told from one column; headers and full rows help |
 
 - Answers between 0.2 and 0.8 on units show a "Jev is unsure" banner; the user's Yes/No is stored and wins.
 - Boolean columns with filter probability ≥ 0.8 (e.g. `paid`) restrict revenue totals.
@@ -38,7 +38,7 @@ In the Claude desktop app, `.claude/launch.json` has `backend`, `backend-mock` a
 
 - Every real call is recorded in `app/backend/storage/ledger.json`.
 - Calls are refused once the cap is reached: `JEV_BUDGET_USD`, default $1.00.
-- Loading the sample costs about $0.0007 (16 calls).
+- Loading the sample makes 16 calls (15 columns plus one table-level check).
 
 ## API
 
@@ -56,4 +56,4 @@ In the Claude desktop app, `.claude/launch.json` has `backend`, `backend-mock` a
 
 - Neon connector (the file store in `store.py` is the seam).
 - Claude: the "ask the dashboard" agent and generated layouts (needs an Anthropic key).
-- The "ask twice" rule for misleading headers (eval: 95% → 78% accuracy when headers lie).
+- The "ask twice" rule for misleading headers: ask with and without the header, flag disagreement.

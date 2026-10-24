@@ -1,23 +1,19 @@
-# Demo: messy CSV to dashboard, with Jev making the decisions
+# Demo: messy CSV to dashboard in one command
 
 ```bash
 eval/.venv/bin/python demo/make_demo_csv.py                                   # 6,432-row Stripe-style export
-eval/.venv/bin/python -I demo/run_demo.py demo/data/acme_payments_export.csv  # ~16 Jev calls, < $0.001
-eval/.venv/bin/python -I demo/run_demo.py demo/data/acme_payments_export.csv --offline  # re-render, no API calls
+eval/.venv/bin/python -I demo/run_demo.py demo/data/acme_payments_export.csv  # needs TYPESAFE_API_KEY in eval/.env
+eval/.venv/bin/python -I demo/run_demo.py demo/data/acme_payments_export.csv --offline  # re-render from cached decisions
 ```
 
-Open `demo/out/dashboard.html` (or the `demo-dashboard` preview in `.claude/launch.json`).
+Then open `demo/out/dashboard.html`. The output folder is not committed: generate it with your
+own API key.
 
-What it proves, on a file with amounts in cents, Unix timestamps, ✓ flags and failed payments:
+The sample file is built to trip up naive tools: amounts in cents, Unix timestamps, ✓ flags and
+failed payments mixed in. Summing the `amount` column as-is gives 52,508,600; the true paid
+revenue is $506,065. The dashboard page shows what pandas' default inference and a rules-based
+typer make of each column next to the decisions the app used.
 
-| | Naive (pandas) | Rules tier | Jev |
-| --- | --- | --- | --- |
-| Total revenue | 52,508,600 (cents, failed payments included) | | **$506,065** (matches ground truth) |
-| `created` (Unix seconds) | int64 | count | **datetime** |
-| `first_payment` (✓ / blank) | str | category | **boolean** |
-| `currency` (usd) | str | money | **category** |
-
-Design finding: asked about one column alone, Jev was unsure whether `amount` is in cents
-(p = 0.44). Given the whole table (headers plus five rows), it was confident (p = 0.93). Unit
-questions need table context; type questions don't. Answers between 0.2 and 0.8 are flagged on
-the dashboard for the user to confirm (`--confirm amount=yes`).
+Design note: whether `2900` means $29 or $2,900 is often ambiguous from one column, so unit
+questions are asked once per table with the headers and a few full rows. Unit answers between
+0.2 and 0.8 are flagged for the user to confirm (`--confirm amount=yes`).

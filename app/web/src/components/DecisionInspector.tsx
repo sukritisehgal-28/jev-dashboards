@@ -59,8 +59,7 @@ export function DecisionInspector({ data }: { data: Dashboard }) {
         </table>
       </div>
       <p className="text-xs text-muted">
-        Numbers are Jev&apos;s probabilities. In the independent eval (324 founder-style columns) Jev&apos;s column typing was 95%
-        accurate with calibration error 0.018, dropping to 78% when headers are misleading.
+        Numbers are the model&apos;s probabilities for this dataset. Decisions it is unsure about are flagged for you to confirm.
       </p>
     </section>
   );

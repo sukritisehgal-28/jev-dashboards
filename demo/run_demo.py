@@ -387,7 +387,7 @@ tr.diff td {{ background:var(--warnbg); }} .p {{ color:var(--muted); font-size:1
 <div class="scroll"><table><tr><th>column</th><th>sample</th><th>type</th><th>role</th><th>in cents?</th><th>filters totals?</th><th>latency</th></tr>{insp_rows}</table></div>
 <h3 style="margin-top:16px">Money units: column alone vs whole table</h3>
 <div class="scroll"><table><tr><th>column</th><th>p(cents), column only</th><th>p(cents), with table context</th><th>applied</th><th>status</th></tr>{unit_rows}</table></div>
-<p class="muted">Numbers after each answer are Jev's probabilities. In the independent eval (324 founder-style columns) Jev's column typing was 95% accurate with calibration error 0.018; it drops to 78% when headers are misleading.</p>
+<p class="muted">Numbers after each answer are Jev's probabilities. Unit answers between 0.2 and 0.8 are flagged for the user to confirm.</p>
 </main>
 <script>
 const charts = {charts_js};
